@@ -14,3 +14,14 @@ Ansible Instellation Process
 ---instalation Sucessfully completed-----
 
 ansible --version-------to check version of Ansible
+
+Steps for Work With Ansible
+1.create A user        adduser ansible
+2.Setup A password     passwd ansible 
+3.give Sudo Previlleages open visudo and add ansible And Allow Permissions
+4.ssh-conncetion          vi /etc/ssh/sshd_config  Change Password Authantication YES---> NO  And service sshd reload
+5.password less SSH-Connection  Configure Only Server ------ SSH-Keygen 
+  cd  .ssh/
+  ssh-copy-id ansible@172.168.0.1
+  ssh-copy-id ansible@172.168.0.2
+  

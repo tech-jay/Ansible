@@ -24,4 +24,11 @@ Steps for Work With Ansible
   cd  .ssh/
   ssh-copy-id ansible@172.168.0.1
   ssh-copy-id ansible@172.168.0.2
+
+Creating Groups In Ansible And Add Servers
+--Vi /etc/ansible/hosts
+ADD
+[servers]
+172.168.0.1
+172.168.0.2
   

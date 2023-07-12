@@ -13,3 +13,4 @@ Ansible Instellation Process
 4.yum install  python python-devel python-pip git openssl java ansible -y
 ---instalation Sucessfully completed-----
 
+ansible --version-------to check version of Ansible

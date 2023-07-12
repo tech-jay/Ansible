@@ -1,0 +1,7 @@
+---
+-name: creating user
+hosts: all
+become: true
+tasks:
+- name: creating user jay
+user: name=jay

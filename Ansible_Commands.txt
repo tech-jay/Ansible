@@ -33,4 +33,4 @@ ADD
 172.168.0.2
 Step-2-   Vi /etc/ansible/ansible.cfg
 Remove # in inventry = /etc/ansible/hosts and Sudo-user=ROOT
- 
+ADD interpreter_python=auto_silent 

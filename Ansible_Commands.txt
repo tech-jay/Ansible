@@ -5,4 +5,11 @@ Launch Amazon Linux 3Servers
 2.Node-1
 3.Node-2
 
+Ansible Instellation Process
+
+1.wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+2.yum install epel-release-latest-8.noarch.rpm -y
+3.yum update -y
+4.yum install  python python-devel python-pip git openssl java ansible -y
+---instalation Sucessfully completed-----
 

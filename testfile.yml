@@ -1,0 +1,6 @@
+---
+-name: creating user
+hosts: all
+become: true
+ file:/home/ansible/jayfile
+ state:touch

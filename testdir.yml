@@ -2,3 +2,10 @@ Creating Directory
 
 ---
 -name: Creating Directory
+hosts:all
+became:true
+tasks:
+-name: creating A Directory
+ file:
+  path:home/ansible/jaygoud
+  state:

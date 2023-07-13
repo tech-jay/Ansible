@@ -1,0 +1,13 @@
+Copy File
+
+---
+-name: Creating Directory
+hosts:all
+became:true
+tasks:
+-name: Copy A File
+ copy:
+   src:home/ansible/jaygoud.sh
+   dest:/home/ansible/copy/open
+   mode:0777
+   owner:jay
